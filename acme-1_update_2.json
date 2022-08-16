@@ -1,0 +1,73 @@
+{
+	"csaf": {
+		"document": {
+			"$nodeId": "9937e70b-a6f8-430e-ab6a-10db33a051a8",
+			"category": "generic_csaf",
+			"csaf_version": "2.0",
+			"publisher": {
+				"$nodeId": "publisher",
+				"category": "coordinator",
+				"name": "test",
+				"namespace": "https://csaf.test"
+			},
+			"title": "Test 1",
+			"tracking": {
+				"current_release_date": "2022-01-13T11:00:00.000Z",
+				"id": "test-2022-1",
+				"initial_release_date": "2022-01-12T11:00:00.000Z",
+				"revision_history": [
+					{
+						"date": "2022-01-12T11:00:00.000Z",
+						"number": "0.0.1",
+						"summary": "Test rsvSummary"
+					},
+					{
+						"date": "2022-01-13T11:00:00.000Z",
+						"number": "0.0.2",
+						"summary": "Test rsvSummary"
+					}
+				],
+				"status": "draft",
+				"version": "0.0.2",
+				"generator": {
+					"date": "2022-01-11T04:07:27.246Z",
+					"engine": {
+						"version": "1.10.0",
+						"name": "Secvisogram"
+					}
+				}
+			},
+			"acknowledgments": [
+				{
+					"names": [
+						"R",
+						"G",
+						"T",
+						"U"
+					],
+					"organization": "contributer",
+					"summary": "Summary 1234",
+					"urls": [
+						"https://csaf.test",
+						"https:/news.test"
+					]
+				}
+			]
+		},
+		"product_tree": {
+   			"full_product_names": [
+      		{
+        		"product_id": "CSAFPID-0001",
+        		"name": "dddd"
+      		},
+      		{
+        		"product_id": "CSAFPID-0002",
+        		"name": "dddddsa"
+      		}
+    		]
+  		}	
+	},
+	},
+	"summary": "update n",
+	"legacyVersion": ""
+}
